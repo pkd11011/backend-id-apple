@@ -41,7 +41,7 @@ if args.lang == '1':
 elif args.lang == '2':
     language = 'en_us'
 elif args.lang == '3':
-    language = 'zh_cn'
+    language = 'vi_vn'
 else:
     logger.error("语言参数错误，默认使用中文")
     language = 'vi_vn'
