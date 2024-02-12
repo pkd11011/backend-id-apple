@@ -44,7 +44,7 @@ elif args.lang == '3':
     language = 'vi_vn'
 else:
     logger.error("语言参数错误，默认使用中文")
-    language = 'zh_cn'
+    language = 'vi_vn'
 client = docker.DockerClient(base_url='unix://var/run/docker.sock')
 
 
