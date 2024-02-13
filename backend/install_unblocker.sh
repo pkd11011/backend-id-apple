@@ -20,14 +20,14 @@ if [ $language != "1" ] && [ $language != "2" ] && [ $language != "3" ]; then
     exit;
 fi
 if [ $language == '1' ]; then
-  echo "以全新方式管理你的 Apple ID，基于密保问题的自动化Apple ID检测&解锁程序程序"
-  echo "项目地址：github.com/pplulee/appleid_auto"
-  echo "项目交流TG群：@appleunblocker"
+  echo "Quản lý ID Apple của bạn theo cách mới, chương trình phát hiện và mở khóa Apple ID tự động dựa trên các câu hỏi bảo mật"
+  echo "Địa chỉ dự án: https://github.com/pkd11011/backend-id-apple.git"
+  echo "Designer dự án: @pkd1101"
   echo "==============================================================="
 else
   echo "Manage your Apple ID in a new way, an automated Apple ID detection & unlocking program based on security questions"
-  echo "Project address: github.com/pplulee/appleid_auto"
-  echo "Project discussion Telegram group: @appleunblocker"
+  echo "Project address: https://github.com/pkd11011/backend-id-apple.git"
+  echo "Project discussion Telegram : @pkd1101"
   echo "==============================================================="
 fi
 if docker >/dev/null 2>&1; then
